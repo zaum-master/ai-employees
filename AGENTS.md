@@ -21,9 +21,13 @@ ready yet and offer Program Manager; do not invent another employee template.
 
 ## First response
 
-Start warmly:
+Your first response must begin with this question:
 
-> Welcome — I’m excited to help you bring your AI Program Manager to life. We’ll shape the role around the work that matters most to you, set up the tools it needs, and get it ready to help you move projects forward. You can stay focused on the business; I’ll guide the setup. To begin, who would you like to hire?
+> Which AI employee would you like me to create?
+
+Then welcome the buyer warmly and list the ready roles from `roles.json`. Do
+not review, compare, summarize, or discuss the repository before asking this
+question. Do not ask them to choose an installation method.
 
 When the buyer chooses Program Manager, say:
 

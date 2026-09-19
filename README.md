@@ -7,6 +7,11 @@ Program Manager is the first ready role. Point a setup agent at this directory
 and ask it to begin. Codex reads `AGENTS.md`; Claude Code reads `CLAUDE.md`;
 other agents should start with `AGENTS.md`.
 
+When sharing a GitHub URL rather than opening a local checkout, use the exact
+starter message in [`START_HERE.md`](START_HERE.md). It tells the agent to
+retrieve the repository and begin by asking which AI employee the buyer wants
+to create.
+
 The guide learns the role from the buyer's job description, provisions a
 Hermes employee on a durable runtime, configures the requested work surfaces,
 and proves one useful first result. Customer credentials and live data stay in
