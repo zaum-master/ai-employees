@@ -31,10 +31,10 @@ Manager instructions into a collection of unrelated roles.
   supported preferred provider or model.
 - Keeps the Program Manager's durable task record locally in a Jira-like task
   store, so setup does not require Jira or other third-party credentials.
-- Connects the channels that match where the buyer works. WhatsApp begins with
-  the buyer's self-chat only. When there is no preference, recommend WhatsApp
-  self-chat or Telegram as the quickest route to the employee.
+- Connects the channels that match where the buyer works. For WhatsApp, it
+  recommends a separate agent number for a more natural team chat experience,
+  while keeping self-chat as an alternative. When there is no preference,
+  recommend WhatsApp or Telegram as the quickest route to the employee.
 
 External messages remain drafts until the buyer deliberately authorizes a
 specific recipient or channel.
-

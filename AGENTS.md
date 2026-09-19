@@ -97,8 +97,14 @@ Connect every work surface the buyer named, using
 `docs/INTEGRATION_ROUTING.md` as the routing guide. Work one connection at a
 time and verify each before moving on.
 
-- If WhatsApp is named, configure the buyer's **self-chat only** first. The
-  owner is the sole allowlisted contact. Do not read or message anyone else.
+- If WhatsApp is named, ask: “Would you like your Program Manager to use a
+  separate WhatsApp number? That is recommended because it gives the employee
+  its own chat identity and is easier for a team to use. Or would you prefer
+  self-chat from your existing number?”
+  - With a separate number, pair that agent account and allow only the buyer's
+    number at first. Do not read or message anyone else.
+  - With self-chat, pair the buyer's account and bind the employee only to the
+    buyer's self-chat. Do not read or message anyone else.
 - If Telegram is named, guide the buyer through every blocked step until the
   connection is verified.
 - If Slack, email, or another work surface is named, connect only the scope

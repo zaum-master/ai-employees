@@ -4,6 +4,10 @@
 
 {{control_channel}}
 
+## WhatsApp mode
+
+{{whatsapp_mode_or_not_used}}
+
 ## Read scope
 
 {{read_scope}}
@@ -15,4 +19,3 @@ Draft only until the principal explicitly approves a recipient and channel.
 ## Current allowlist
 
 {{allowlist}}
-

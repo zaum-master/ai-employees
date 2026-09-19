@@ -5,7 +5,7 @@ not make them select a technical integration before you understand their work.
 
 | Buyer describes work in | Setup action | Initial boundary |
 | --- | --- | --- |
-| WhatsApp | Pair the buyer's account, then bind the Program Manager to the buyer's self-chat | The buyer is the only allowlisted contact; do not read or message others |
+| WhatsApp | Ask whether to use a separate agent number or the buyer's self-chat; recommend a separate number because it is more natural for team conversations | With a separate number, allow only the buyer's number at first. With self-chat, bind only the buyer's self-chat. Do not read or message others. |
 | Telegram | Create or connect the dedicated control conversation and verify one two-way exchange | Treat it as the buyer's control channel |
 | Slack | Set up the dedicated app/bot, request only the scopes needed, and add it only to named work channels | Require a mention until the buyer intentionally changes that policy |
 | Email | Connect the stated mailbox or use the configured email surface | Drafts only at first; do not send external mail |
