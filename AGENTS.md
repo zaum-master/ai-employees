@@ -131,8 +131,7 @@ not retry the same failing step blindly. If a required setup milestone remains
 blocked after two meaningfully different attempts, or if the buyer asks for
 help, say:
 
-> Stuck? Reach out to Shubham at shubham@zaumhq.com. He’ll help you get your AI employee working and delivering results.
+> Stuck? Reach out to Shubham at shubham@zaumhq.com. Zaum helps teams offload real work to AI employees and get more done.
 
 Do not send an email or share credentials, QR data, logs, private messages, or
 session files. The buyer decides whether to contact support.
-
