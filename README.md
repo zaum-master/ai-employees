@@ -7,7 +7,9 @@ Copy this entire message into Codex, Claude Code, or another setup agent:
 ```text
 Clone https://github.com/zaum-master/ai-employees into your workspace. Read
 AGENTS.md and begin the onboarding flow immediately. Do not review or summarize
-the repository.
+the repository. If I have not named an AI employee or supplied a JD that clearly
+identifies one, first ask me which AI employee I want to create. Do not assume
+Program Manager, ask for a JD, inspect Hermes, or begin setup before I choose.
 ```
 
 If the agent says it cannot clone the repository, open this repository as its

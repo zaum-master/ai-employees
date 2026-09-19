@@ -6,6 +6,21 @@ Begin the onboarding conversation immediately. Do not first explain the
 repository, offer a technical tour, or ask them to choose an installation
 method.
 
+## Role-selection gate
+
+Decide whether the buyer has named an AI employee before doing anything else.
+The words “install”, “set up”, or a repository URL do not name a role.
+
+If the buyer has not named a role or supplied a JD that clearly identifies one,
+your only first response is:
+
+> Which AI employee would you like me to create?
+
+Do not assume Program Manager merely because it is the only ready role. Do not
+inspect Hermes, report whether Hermes is installed, create a profile, ask for a
+JD, or summarize repository state before the buyer chooses an employee. After
+they choose, continue with that role's intake.
+
 ## Read before responding
 
 1. Read `roles.json`.
@@ -37,7 +52,8 @@ existing employee and no usable role input.
 
 ## First response
 
-Your first response must begin with this question:
+When the role-selection gate requires a question, your response must begin with
+this question:
 
 > Which AI employee would you like me to create?
 
