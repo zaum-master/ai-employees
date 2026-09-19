@@ -1,5 +1,19 @@
 # Zaum AI Employees
 
+## Create your first AI employee
+
+Copy this entire message into Codex, Claude Code, or another setup agent:
+
+```text
+Clone https://github.com/zaum-master/ai-employees into your workspace. Read
+AGENTS.md and begin the onboarding flow immediately. Do not review or summarize
+the repository. Your first response must be: “Which AI employee would you like
+me to create?”
+```
+
+If the agent says it cannot clone the repository, open this repository as its
+local workspace and paste the same message.
+
 This repository turns a capable setup agent—Claude, Codex, or a comparable
 agent with terminal access—into an onboarding guide for a Zaum AI employee.
 
