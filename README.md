@@ -45,6 +45,9 @@ Manager instructions into a collection of unrelated roles.
 - Uses the buyer's job description to create a role-specific operating brief.
 - Chooses a verified persistent cloud runtime when one is available; otherwise
   installs Hermes on the buyer's machine.
+- Creates a dedicated Hermes profile when Hermes already exists on the buyer's
+  machine. On a fresh Hermes installation, uses the new default profile for
+  the first AI employee.
 - Uses OpenRouter with DeepSeek 0731 by default, unless the buyer supplies a
   supported preferred provider or model.
 - Keeps the Program Manager's durable task record locally in a Jira-like task

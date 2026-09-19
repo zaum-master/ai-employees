@@ -87,6 +87,19 @@ client-specific configuration from any existing Zaum employee. Before writing
 configuration, inspect the installed Hermes version and its current
 configuration documentation.
 
+Choose the employee's Hermes home before writing any role files:
+
+- If Hermes is already installed on the buyer's machine, create and use a
+  dedicated named Hermes profile for the employee. Do not overwrite the
+  buyer's existing default Hermes profile.
+- If Hermes is not installed, install it and use the fresh default Hermes
+  profile as this first AI employee. Do not create an extra profile just for
+  that new installation.
+
+In both cases, inspect the selected profile's effective `HERMES_HOME`, create
+the employee workspace, and set that profile's `terminal.cwd` to the workspace
+before rendering the persona or role instructions.
+
 Create an isolated employee workspace. Generate its identity, operating brief,
 Program Manager instructions, local task store, and channel policy from the
 templates in `roles/program-manager/templates/`. Keep the buyer's secrets and

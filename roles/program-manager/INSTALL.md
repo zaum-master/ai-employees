@@ -4,6 +4,21 @@ The setup agent provisions Hermes and creates a new Program Manager instance
 from this template. It must inspect current Hermes documentation and the
 installed version before choosing commands or configuration keys.
 
+## Choose the Hermes home
+
+Decide this before creating any role file:
+
+1. **Hermes already exists on the machine:** create a dedicated named Hermes
+   profile for this Program Manager and use that profile's `HERMES_HOME`. Do
+   not convert or overwrite the buyer's existing default profile.
+2. **Hermes is not installed:** install Hermes using its current documented
+   procedure. Use the fresh default Hermes profile as this first Program
+   Manager; do not create an extra profile.
+
+For either path, create a dedicated employee workspace and set the selected
+profile's `terminal.cwd` to it. Inspect the selected profile's actual
+`HERMES_HOME`; never infer it from the workspace path.
+
 ## Required instance artifacts
 
 Create these runtime-local files from the templates:
