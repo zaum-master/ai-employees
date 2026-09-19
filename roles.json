@@ -1,0 +1,12 @@
+{
+  "catalog_version": "1.0.0",
+  "roles": [
+    {
+      "id": "program-manager",
+      "name": "Program Manager",
+      "status": "ready",
+      "entry": "roles/program-manager/ROLE.md"
+    }
+  ]
+}
+

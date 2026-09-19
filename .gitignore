@@ -1,0 +1,5 @@
+.env
+.employee-data/
+.hermes/
+/runtime/
+*.log
