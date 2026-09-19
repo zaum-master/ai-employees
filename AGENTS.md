@@ -24,11 +24,14 @@ they choose, continue with that role's intake.
 ## Read before responding
 
 1. Read `roles.json`.
-2. Read the selected role's `ROLE.md`, `INTAKE.md`, `INSTALL.md`, and
-   `runtime/task-store/README.md`.
-3. Read `docs/INTEGRATION_ROUTING.md` only after the buyer says where work
+2. Read the selected role's `ROLE.md`.
+3. For a role with `"implementation": "custom"`, read its `INTAKE.md`,
+   `INSTALL.md`, and `runtime/task-store/README.md`. For a role with
+   `"implementation": "shared"`, read the matching files under
+   `roles/_shared/`.
+4. Read `docs/INTEGRATION_ROUTING.md` only after the buyer says where work
    happens.
-4. Read `docs/ROLE_AUTHORING.md` only when a maintainer asks to add a role.
+5. Read `docs/ROLE_AUTHORING.md` only when a maintainer asks to add a role.
 
 Before provisioning or repairing Hermes, read
 `docs/HERMES_INSTALLER_GUIDE.md`. It is the stable orientation for Hermes
@@ -36,9 +39,11 @@ profiles, workspaces, persona files, and verification. Then inspect the
 installed Hermes version and its current official documentation before choosing
 commands or configuration keys.
 
-Program Manager is the only role ready today. If the buyer names it, start its
-onboarding. If they name a role that is not listed as ready, say that it is not
-ready yet and offer Program Manager; do not invent another employee template.
+If the buyer names a role in `roles.json` with status `ready` or `preview`,
+start its onboarding. For a `preview` role, say it is an early-access template
+and keep its human-approval boundaries explicit. If the buyer names a role not
+listed in the catalog, say that it is not available yet and offer the listed
+roles; do not invent another employee template.
 
 ## Existing employee support
 
@@ -57,7 +62,8 @@ this question:
 
 > Which AI employee would you like me to create?
 
-Then welcome the buyer warmly and list the ready roles from `roles.json`. Do
+Then welcome the buyer warmly and list the ready and preview roles from
+`roles.json`. Do
 not review, compare, summarize, or discuss the repository before asking this
 question. Do not ask them to choose an installation method.
 
@@ -67,6 +73,9 @@ When the buyer chooses Program Manager, say:
 
 Do not ask a long form of setup questions. Treat a pasted JD, a project brief,
 or a natural-language description as valid input.
+
+For any other listed role, introduce the named role and ask the buyer to share
+its JD.
 
 ## Intake conversation
 
@@ -146,7 +155,7 @@ Connect every work surface the buyer named, using
 `docs/INTEGRATION_ROUTING.md` as the routing guide. Work one connection at a
 time and verify each before moving on.
 
-- If WhatsApp is named, ask: “Would you like your Program Manager to use a
+- If WhatsApp is named, ask: “Would you like your AI employee to use a
   separate WhatsApp number? That is recommended because it gives the employee
   its own chat identity and is easier for a team to use. Or would you prefer
   self-chat from your existing number?”
@@ -162,20 +171,19 @@ time and verify each before moving on.
 - If no work surface is clear, recommend WhatsApp self-chat or Telegram as the
   quickest way to begin talking to the Program Manager.
 
-Create the local task record described in
-`roles/program-manager/runtime/task-store/README.md`. It is the sole source of
-truth for this first version. Do not ask the buyer to connect Jira, Linear,
-Asana, or another task system during initial setup.
+Create the local task record described by the selected role's custom or shared
+task-store contract. It is the sole source of truth for this first version. Do
+not ask the buyer to connect Jira, Linear, Asana, or another task system during
+initial setup.
 
 ## First useful result
 
 Do not stop at installation. Ask the buyer to send one genuine project update
-through the connected control channel. The Program Manager must turn it into a
-clear project snapshot with the objective, milestones, active owner, next
-action, blocker or decision needed, and known unknowns. Save the same state in
-the local task record and show the buyer the result.
+through the connected control channel. The selected employee must produce the
+first useful result defined in its role contract, save the same state in the
+local task record, and show the buyer the result.
 
-Only after that proof, say that their Program Manager is live. External
+Only after that proof, say that their AI employee is live. External
 messages remain drafts until the buyer explicitly broadens the channel and
 recipient policy.
 

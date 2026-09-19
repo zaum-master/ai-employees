@@ -5,8 +5,106 @@
       "id": "program-manager",
       "name": "Program Manager",
       "status": "ready",
-      "entry": "roles/program-manager/ROLE.md"
+      "entry": "roles/program-manager/ROLE.md",
+      "implementation": "custom"
+    },
+    {
+      "id": "category-sourcing-analyst",
+      "name": "Category Manager (AI Sourcing Analyst)",
+      "status": "preview",
+      "entry": "roles/category-sourcing-analyst/ROLE.md",
+      "implementation": "shared"
+    },
+    {
+      "id": "procurement-operations-analyst",
+      "name": "Procurement Manager (AI Operations Analyst)",
+      "status": "preview",
+      "entry": "roles/procurement-operations-analyst/ROLE.md",
+      "implementation": "shared"
+    },
+    {
+      "id": "sourcing-process-analyst",
+      "name": "Sourcing Process Analyst",
+      "status": "preview",
+      "entry": "roles/sourcing-process-analyst/ROLE.md",
+      "implementation": "shared"
+    },
+    {
+      "id": "accounts-payable-analyst",
+      "name": "Accounts Payable Analyst",
+      "status": "preview",
+      "entry": "roles/accounts-payable-analyst/ROLE.md",
+      "implementation": "shared"
+    },
+    {
+      "id": "accounts-receivable-analyst",
+      "name": "Accounts Receivable Analyst",
+      "status": "preview",
+      "entry": "roles/accounts-receivable-analyst/ROLE.md",
+      "implementation": "shared"
+    },
+    {
+      "id": "treasury-analyst",
+      "name": "Treasury Analyst",
+      "status": "preview",
+      "entry": "roles/treasury-analyst/ROLE.md",
+      "implementation": "shared"
+    },
+    {
+      "id": "finops-analyst",
+      "name": "FinOps Analyst",
+      "status": "preview",
+      "entry": "roles/finops-analyst/ROLE.md",
+      "implementation": "shared"
+    },
+    {
+      "id": "order-management-analyst",
+      "name": "Order Management Analyst",
+      "status": "preview",
+      "entry": "roles/order-management-analyst/ROLE.md",
+      "implementation": "shared"
+    },
+    {
+      "id": "business-analyst",
+      "name": "Business Analyst",
+      "status": "preview",
+      "entry": "roles/business-analyst/ROLE.md",
+      "implementation": "shared"
+    },
+    {
+      "id": "data-analyst",
+      "name": "Data Analyst",
+      "status": "preview",
+      "entry": "roles/data-analyst/ROLE.md",
+      "implementation": "shared"
+    },
+    {
+      "id": "project-manager",
+      "name": "Project Manager (AI Coordination Analyst)",
+      "status": "preview",
+      "entry": "roles/project-manager/ROLE.md",
+      "implementation": "shared"
+    },
+    {
+      "id": "trade-compliance-analyst",
+      "name": "Trade Compliance Analyst",
+      "status": "preview",
+      "entry": "roles/trade-compliance-analyst/ROLE.md",
+      "implementation": "shared"
+    },
+    {
+      "id": "risk-analyst",
+      "name": "Risk Analyst",
+      "status": "preview",
+      "entry": "roles/risk-analyst/ROLE.md",
+      "implementation": "shared"
+    },
+    {
+      "id": "supply-planning-analyst",
+      "name": "Supply Planning Analyst",
+      "status": "preview",
+      "entry": "roles/supply-planning-analyst/ROLE.md",
+      "implementation": "shared"
     }
   ]
 }
-

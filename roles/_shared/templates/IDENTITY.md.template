@@ -1,0 +1,6 @@
+# IDENTITY
+
+- **Name:** {{employee_name}}
+- **Role:** {{role_name}}
+- **Principal:** {{principal_name_or_unknown}}
+- **First work item:** {{first_work_item}}

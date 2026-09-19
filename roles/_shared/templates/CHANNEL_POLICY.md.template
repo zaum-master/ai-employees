@@ -1,0 +1,17 @@
+# Channel policy
+
+## Control channel
+
+{{control_channel}}
+
+## Read scope
+
+{{read_scope}}
+
+## External communication
+
+Draft only until the principal explicitly approves a recipient and channel.
+
+## Current allowlist
+
+{{allowlist}}

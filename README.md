@@ -32,15 +32,30 @@ Hermes employee on a durable runtime, configures the requested work surfaces,
 and proves one useful first result. Customer credentials and live data stay in
 the customer's local environment and are never committed to this repository.
 
-## Ready roles
+## Roles
 
 | Role | Status | Entry point |
 | --- | --- | --- |
 | Program Manager | Ready | `roles/program-manager/ROLE.md` |
+| Category Manager (AI Sourcing Analyst) | Preview | `roles/category-sourcing-analyst/ROLE.md` |
+| Procurement Manager (AI Operations Analyst) | Preview | `roles/procurement-operations-analyst/ROLE.md` |
+| RFP / Sourcing Process Analyst | Preview | `roles/sourcing-process-analyst/ROLE.md` |
+| Accounts Payable Analyst | Preview | `roles/accounts-payable-analyst/ROLE.md` |
+| Accounts Receivable Analyst | Preview | `roles/accounts-receivable-analyst/ROLE.md` |
+| Treasury Analyst | Preview | `roles/treasury-analyst/ROLE.md` |
+| FinOps Analyst | Preview | `roles/finops-analyst/ROLE.md` |
+| Order Management Analyst | Preview | `roles/order-management-analyst/ROLE.md` |
+| Business Analyst | Preview | `roles/business-analyst/ROLE.md` |
+| Data Analyst | Preview | `roles/data-analyst/ROLE.md` |
+| Project Manager (AI Coordination Analyst) | Preview | `roles/project-manager/ROLE.md` |
+| Trade Compliance Analyst | Preview | `roles/trade-compliance-analyst/ROLE.md` |
+| Risk Analyst | Preview | `roles/risk-analyst/ROLE.md` |
+| Supply Planning Analyst | Preview | `roles/supply-planning-analyst/ROLE.md` |
 
-The role catalog is `roles.json`. Add future employees, such as Supply
-Manager, as separate role folders and catalog entries; do not turn the Program
-Manager instructions into a collection of unrelated roles.
+The role catalog is `roles.json`. Preview roles have complete role and runtime
+templates but still need a role-specific live proof before their status becomes
+Ready. Do not turn the Program Manager instructions into a collection of
+unrelated roles.
 
 ## What the first version does
 
