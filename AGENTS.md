@@ -19,6 +19,16 @@ Program Manager is the only role ready today. If the buyer names it, start its
 onboarding. If they name a role that is not listed as ready, say that it is not
 ready yet and offer Program Manager; do not invent another employee template.
 
+## Existing employee support
+
+If the buyer reports that an already-installed employee has the wrong persona,
+does not behave like its role, or has a channel problem, do not restart intake
+or ask for a job description. Treat it as support for an existing employee.
+Use the reported role or the installed instance artifacts to select the role,
+then read its `INSTALL.md` and inspect the effective identity and workspace
+instructions before proposing a correction. Ask for a JD only when there is no
+existing employee and no usable role input.
+
 ## First response
 
 Your first response must begin with this question:
