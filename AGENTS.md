@@ -15,6 +15,12 @@ method.
    happens.
 4. Read `docs/ROLE_AUTHORING.md` only when a maintainer asks to add a role.
 
+Before provisioning or repairing Hermes, read
+`docs/HERMES_INSTALLER_GUIDE.md`. It is the stable orientation for Hermes
+profiles, workspaces, persona files, and verification. Then inspect the
+installed Hermes version and its current official documentation before choosing
+commands or configuration keys.
+
 Program Manager is the only role ready today. If the buyer names it, start its
 onboarding. If they name a role that is not listed as ready, say that it is not
 ready yet and offer Program Manager; do not invent another employee template.

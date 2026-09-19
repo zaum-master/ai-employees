@@ -59,3 +59,7 @@ Manager instructions into a collection of unrelated roles.
 
 External messages remain drafts until the buyer deliberately authorizes a
 specific recipient or channel.
+
+Maintainers and setup agents should use the
+[`Hermes installer guide`](docs/HERMES_INSTALLER_GUIDE.md) before provisioning
+or repairing an employee.

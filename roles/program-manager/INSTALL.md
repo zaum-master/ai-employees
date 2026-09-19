@@ -1,8 +1,9 @@
 # Program Manager installation contract
 
 The setup agent provisions Hermes and creates a new Program Manager instance
-from this template. It must inspect current Hermes documentation and the
-installed version before choosing commands or configuration keys.
+from this template. Before choosing commands or configuration keys, it must
+read `docs/HERMES_INSTALLER_GUIDE.md`, then inspect current Hermes
+documentation and the installed version.
 
 ## Choose the Hermes home
 
